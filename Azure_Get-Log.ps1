@@ -1,5 +1,5 @@
 # Create by Thiago Oliveira
-# Get Ativity Log by date amnd genarate file logs.csv
+# Get Activity Log by date and generate file logs.csv
 
 $logs = Get-AzLog -StartTime 2022-01-01 -EndTime 2022-01-30 -ResourceProvider Microsoft.KeyVault
 
